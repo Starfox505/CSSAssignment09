@@ -3,6 +3,41 @@
 body {
   font-size: 20px;
   line-height: 145%;
+  background: #1e5799; /* Old browsers */
+  background: -moz-linear-gradient(
+    45deg,
+    #1e5799 0%,
+    #ff3232 16%,
+    #1e5799 33%,
+    #2989d8 50%,
+    #207cca 51%,
+    #f93135 78%,
+    #1e5799 91%,
+    #7db9e8 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    45deg,
+    #1e5799 0%,
+    #ff3232 16%,
+    #1e5799 33%,
+    #2989d8 50%,
+    #207cca 51%,
+    #f93135 78%,
+    #1e5799 91%,
+    #7db9e8 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    45deg,
+    #1e5799 0%,
+    #ff3232 16%,
+    #1e5799 33%,
+    #2989d8 50%,
+    #207cca 51%,
+    #f93135 78%,
+    #1e5799 91%,
+    #7db9e8 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 h1,
@@ -12,6 +47,7 @@ h4 {
   font-family: "Libre Baskerville", serif;
   font-size: 2.5rem;
   text-align: center;
+  line-height: 145%;
 }
 
 p {
